@@ -9,6 +9,9 @@
 
 ## Urls for Create, Read, Update, Delete, and View Member:
 // Create Member : http://127.0.0.1:8000/api/cruds
+
 // Read Member : http://127.0.0.1:8000/api/cruds/{id}
+
 // update Member : http://127.0.0.1:8000/api/cruds/{id}?_method=PUT , and send it as POST
+
 // Delete Member : http://127.0.0.1:8000/api/cruds/{id}
