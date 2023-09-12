@@ -25,6 +25,8 @@ use App\Http\Controllers\CrudController;
 Route::post('register', [RegisterController::class, 'register']);
 Route::post('login', [RegisterController::class, 'login']);
 
+
+/* Route::apiResource('crud', CrudController::class); */
 Route::get('cruds',[CrudController::class, 'index']);
 Route::post('cruds',[CrudController::class, 'store']);
 Route::get('cruds/{crud}',[CrudController::class, 'show']);
